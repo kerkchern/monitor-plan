@@ -15,10 +15,10 @@ public class MonitorPlanServiceApplication {
 		SpringApplication.run(MonitorPlanServiceApplication.class, args);
 	}
 	
-	@Bean
-	@LoadBalanced
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
+// 	@Bean
+// 	@LoadBalanced
+// 	public RestTemplate restTemplate() {
+// 		return new RestTemplate();
+// 	}
 
 }
